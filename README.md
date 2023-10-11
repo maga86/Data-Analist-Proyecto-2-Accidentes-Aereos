@@ -74,9 +74,10 @@ f. Realizar Análisis de Correlaciones:
 g. Generar Conclusiones y Recomendaciones:
 "Elaborar conclusiones basadas en los análisis realizados y formular recomendaciones para mejorar la seguridad en la aviación, si es pertinente."
 
-### Modelado de datos y transformación de los mismos:
+### Modelado de datos y transformación de los mismos::memo::pencil:
 
 En el archivo ETL se puede observar las transformaciones que se le realizaron al al dataset entre las cuales se pueden destacar:
+
 - Se renombro algunas columnas para unificar el idioma.
 - Se creo un diccionario.
 - Se realizo cambio de dtype de algunas columnas.
@@ -100,8 +101,6 @@ A los efectos de poder entender los datos presentados, se realizaron una serie d
   
 - Gráficos de líneas realizando análisis temporales.
 
-
-
 ### Realización y obtención de los KPI'S:
 
 Una vez realizado el Análisis Exploratorio y teniendo todo la informacón dispónibilizada se prosiguió al desarrollo del KPI sugerido en el trabajo y de uno prpuesto por nosotros:
@@ -118,9 +117,9 @@ Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período 
 
 Tasa Anual de Mortalidad = (Total Fatalities / All Aboard) * 100
 
-### Dashboard: 
+### Dashboard::framed_picture:
 
-Para terminar con la presentación del análisis se realizo una presentación en Powerbi:
+Ya concluyendo el análisis se realizo una presentación en Powerbi:
 
 ### Portada
 
@@ -154,7 +153,7 @@ En este kpi se debía obtener la tasa anual de mortalidad de los accidentes regi
 Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año y su comparación con el target planteado (tasa del año anterior reducida en un 5% como mínimo). Si la tasa de mortalidad del año en cuestión es menor al target la tarjeta mostrará la tasa en color verde ( 2020). Caso contrario mostrará la tasa en rojo ( 2021). La tabla de análisis por año ayuda a clarificar sobre este KPI.
 
 
-### Conclusiones:
+### Conclusiones::receipt:
 
 A partir del desarrollo del EDA Y EL dashboard presentado se pueden obtener algunas conclusiones a tener en cuenta:
 
@@ -173,8 +172,3 @@ A partir del desarrollo del EDA Y EL dashboard presentado se pueden obtener algu
 - La tendencia anual de accidentes a lo largo de la historia comenzó una gran alza desde los días de los primeros vuelos hasta 1945. Esta tendencia pudo consolidarse entre 1946 y 2004 para finalmente romper la zona de acumulación en 2005 (año en que confirmamos la tendencia va hacia la baja comenzada en 1989).
 
 - Podemos concluir que la aviación ha alcanzado un nivel de seguridad que  de accidentes más bajos de la historia, considerando la cantidad de vuelos, personas transportadas y avances tecnológicos.
-
-
-
-
-
