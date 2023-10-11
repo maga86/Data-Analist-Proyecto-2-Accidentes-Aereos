@@ -40,7 +40,7 @@ Ya que el objetivo principal es poder obtener un análisis de los datos decidí 
 ### Librerías Python utilizadas::books:
 - Numpy 
 - Pandas
-- Matplotlib.pyplot 
+- Matplotlib
 - Seaborn
 - Scipy
 - Sklearn
@@ -54,7 +54,7 @@ Objetivo General:
 Objetivos Específicos:
 
 a. Identificar Causas de Accidentes:
-"Identificar y categorizar las causas principales de los accidentes de aviación a partir de la información en la columna 'Summary'."
+"Identificar y categorizar las causas principales de los accidentes de aviación a partir de la información que se nos entrega en el dataset."
 
 b. Analizar Marcas de Aeronaves:
 "Determinar las marcas de aeronaves más frecuentemente involucradas en accidentes y analizar si hay patrones o tendencias en los tipos de aeronaves que sufren accidentes."
@@ -95,10 +95,10 @@ A los efectos de poder entender los datos presentados, se realizaron una serie d
 - Análisis e identificación de outliers en variables de interés (total_aboard y total_fatalities).
   
 - Identificación de variables categóricas y sus valores.
-- 
+  
 - Gráficos de barras comparando las columnas.
-- 
-- Graficos de líneas realizando análisis temporal 
+  
+- Gráficos de líneas realizando análisis temporales.
 
 
 
@@ -152,6 +152,29 @@ En este kpi se debía obtener la tasa de mortalidad de la tripulación en los ú
 
 En este kpi se debía obtener la tasa anual de mortalidad de los accidentes registrados y tiene como objetivo la reducción del 5% año a año.Se puede observar un gráfico central que muestra la mortalidad anual  traves del tiempo el cúal tambien interactua con las tarjetas de accidentes totales y muertes totales.
 Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año y su comparación con el target planteado (tasa del año anterior reducida en un 5% como mínimo). Si la tasa de mortalidad del año en cuestión es menor al target la tarjeta mostrará la tasa en color verde ( 2020). Caso contrario mostrará la tasa en rojo ( 2021). La tabla de análisis por año ayuda a clarificar sobre este KPI.
+
+
+### Conclusiones:
+
+A partir del desarrollo del EDA Y EL dashboard presentado se pueden obtener algunas conclusiones a tener en cuenta:
+
+- Los vuelos que mas accidentes registran son lo vuelos militares con un 84% de registros frente a un 15% de los vuelo comerciales realizados.
+  
+- Estados Unidos, Rusia y Brasil son los países con mas registros de accidentes que hay ocupan los tres primeros puestos respectivamente.
+  
+- A la hora de analizar las rutas de vuelo aparecen con mas accidentes los vuelos llamados de entrenamiento "Training"y tambien entre los primeros puesto la ruta San Pablo- Río, Río-San Pablo. Quer condice con la información de Brasil en los primeros puesto de accidentes.
+  
+- Las marcas mas utilizadas por las aerolíneas son Douglas Company y Boing que asu vez son las que menos accidentes registran se podrían calificar como mas seguras que otras.
+
+- La marca que mas accidentes presenta es el Douglas DC-3.
+
+- En cuanto a los operadores  Aeroflot aparece como la que mas registros de muertes y tb de sobrevivientes. Al analizar u poco mas tambien se pudo ver que  Aeroflot es el operador con mayor cantidadde registros en este dataset.
+
+- La tendencia anual de accidentes a lo largo de la historia comenzó una gran alza desde los días de los primeros vuelos hasta 1945. Esta tendencia pudo consolidarse entre 1946 y 2004 para finalmente romper la zona de acumulación en 2005 (año en que confirmamos la tendencia va hacia la baja comenzada en 1989).
+
+- Podemos concluir que la aviación ha alcanzado un nivel de seguridad que  de accidentes más bajos de la historia, considerando la cantidad de vuelos, personas transportadas y avances tecnológicos.
+
+
 
 
 
