@@ -86,6 +86,7 @@ En el archivo ETL se puede observar las transformaciones que se le realizaron al
 - De la columna Location se crearon otras dos para asi poder obtener Country y City por separado. 
 - La columna Category se dividio en 2( Military y Passenger para poder tener una diferenciación de los vuelos.
 - Se buscaron registros duplicados y faltantes.
+  
 
 ### Realización del Análisis Exploratrorio(EDA)::bar_chart:
 
@@ -100,6 +101,8 @@ A los efectos de poder entender los datos presentados, se realizaron una serie d
 - Gráficos de barras comparando las columnas.
   
 - Gráficos de líneas realizando análisis temporales.
+  
+En archivo de nombre EDA.ipynb se pude ver el análisis realizado.
 
 ### Realización y obtención de los KPI'S: :pushpin:
 
