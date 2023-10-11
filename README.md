@@ -118,7 +118,7 @@ Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período 
 
 Tasa Anual de Mortalidad = (Total Fatalities / All Aboard) * 100
 
-Dashboard: 
+### Dashboard: 
 
 Para terminar con la presentación del análisis se realizo una presentación en Powerbi donde en la primer pagina se realizo  un resúmen de los objetivos a explorar y analizar. Luego tenemos 2 páginas mas donde se puede observar la realización de los KPI's en forma gráfica 
 
