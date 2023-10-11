@@ -120,6 +120,9 @@ Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período 
 
 Tasa Anual de Mortalidad = (Total Fatalities / All Aboard) * 100
 
+ Se puede ver el desarrollo de las métricas de cada KPI al final del análisis exploratorio del archivo EDA.ipynb. 
+ Los objetivos de cada KPI fueron mostrados y aplicados en dashboard a traves de tarjetas de KPI, mostrando con color verde el cumplimiento de este o con rojo que no se alcanzo el objetivo.
+
 ### Dashboard::framed_picture:
 
 Ya concluyendo el análisis se realizo una presentación en Powerbi:
