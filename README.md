@@ -1,6 +1,4 @@
 
-
-
  <h1 align="center">Proyecto-Individual-2-Data-Analitics-</h1>
  
  ![](https://laportadacanada.com/userfiles/images/accidentes-tragicos.jpg) 
@@ -52,6 +50,7 @@ Ya que el objetivo principal es poder obtener un análisis de los datos decidí 
 Objetivo General:
 
 "Analizar los accidentes de aviación ocurridos en los años especificados para comprender las causas subyacentes y las tendencias relacionadas con marcas de aeronaves, operadores, rutas y países."
+
 Objetivos Específicos:
 
 a. Identificar Causas de Accidentes:
@@ -76,6 +75,7 @@ g. Generar Conclusiones y Recomendaciones:
 "Elaborar conclusiones basadas en los análisis realizados y formular recomendaciones para mejorar la seguridad en la aviación, si es pertinente."
 
 ### Modelado de datos y transformación de los mismos:
+
 En el archivo ETL se puede observar las transformaciones que se le realizaron al al dataset entre las cuales se pueden destacar:
 - Se renombro algunas columnas para unificar el idioma.
 - Se creo un diccionario.
@@ -112,7 +112,7 @@ Objetivo: Evaluar la disminución de un 10% la tasa de fatalidad.
 
 Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período de tiempo / Suma total de accidentes en el período de tiempo)
 
-- KPI 2:- 2do KPI:  Obtener la tasa anual de mortalidad de los accidentes registrados.
+- KPI 2:- 2do KPI:  Obtener la tasa anual de mortalidad de los accidentes registrados. :pushpin:
 
  Objetivo: reducir en un 5% la tasa, año a año.
 
