@@ -61,12 +61,12 @@ b. Analizar Marcas de Aeronaves:
 
 c. Evaluar Operadores:
 "Identificar las aerolíneas u operadores con mayor incidencia de accidentes y analizar si existen factores comunes que puedan explicar esta tendencia."
-d. Explorar Rutas de Vuelo:
 
-"Analizar las rutas de vuelo para identificar las rutas que han experimentado un mayor número de accidentes y examinar si factores como la longitud de la ruta o condiciones climáticas están relacionados."
+d. Explorar Rutas de Vuelo:
+"Analizar las rutas de vuelo para identificar las rutas que han experimentado un mayor número de accidentes."
 
 e. Examinar Países Involucrados:
-"Identificar los países en los que se produjeron la mayoría de los accidentes y evaluar si existen factores geográficos o regulaciones específicas que puedan influir en la seguridad."
+"Identificar los países en los que se produjeron la mayoría de los accidentes ."
 
 f. Realizar Análisis de Correlaciones:
 "Investigar posibles correlaciones entre diferentes variables, como marcas de aeronaves, operadores y tipos de accidentes, con el objetivo de descubrir patrones o relaciones significativas."
@@ -119,6 +119,7 @@ Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período 
 Tasa Anual de Mortalidad = (Total Fatalities / All Aboard) * 100
 
 ### Dashboard: 
+
 Para terminar con la presentación del análisis se realizo una presentación en Powerbi:
 
 ### Portada
@@ -129,13 +130,28 @@ Para terminar con la presentación del análisis se realizo una presentación en
 
 ![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/Presentaci%C3%B3n.png)
 
-En la primer página se realizo  un resúmen de los objetivos a explorar y analizar
+En la primer página se realizo  un resúmen de los objetivos a explorar y analizar que son los que nos van a ayudar no solo a entender el dataset si no tb encontrar las razones por las cuales los accidentes se pudieron haber dado:
+
+-  Identificar Causas de Accidentes
+-  Analizar Marcas de Aeronaves.
+-  Evaluar Operadores.
+-  Explorar Rutas de Vuelo.
+-  Examinar Países Involucrados.
+-  Realizar Análisis de Correlaciones.
+-  Generar Conclusiones y Recomendaciones:
 
 ### KPI1:
+
 ![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/KPI1.png)
 
+En este kpi se debía obtener la tasa de mortalidad de la tripulación en los últimos 10 años.Presenta un gráfico central en el que se representa la tasa de mortalidad de la tripulación en los últimos 10 años. Tambien la acompaña un cuadro donde se puede visualizar mejor por década el valor de la mortalidad y para visualizar nuestro KPI tenemos una tarjeta que nos indica si se alcanzo la disminución de la mortalidad en un 10%. 
+
 ### KPI2:
+
 ![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/KPI2.png)
+
+En este kpi se debía obtener la tasa anual de mortalidad de los accidentes registrados y tiene como objetivo la reducción del 5% año a año.Se puede observar un gráfico central que muestra la mortalidad anual  traves del tiempo el cúal tambien interactua con las tarjetas de accidentes totales y muertes totales.
+Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año y su comparación con el target planteado (tasa del año anterior reducida en un 5% como mínimo). Si la tasa de mortalidad del año en cuestión es menor al target la tarjeta mostrará la tasa en color verde ( 2020). Caso contrario mostrará la tasa en rojo ( 2021). La tabla de análisis por año ayuda a clarificar sobre este KPI.
 
 
 
