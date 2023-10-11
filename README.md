@@ -74,7 +74,7 @@ f. Realizar Análisis de Correlaciones:
 g. Generar Conclusiones y Recomendaciones:
 "Elaborar conclusiones basadas en los análisis realizados y formular recomendaciones para mejorar la seguridad en la aviación, si es pertinente."
 
-### Modelado de datos y transformación de los mismos::memo::pencil:
+### Modelado de datos y transformación de los mismos::memo:
 
 En el archivo ETL se puede observar las transformaciones que se le realizaron al al dataset entre las cuales se pueden destacar:
 
@@ -101,17 +101,17 @@ A los efectos de poder entender los datos presentados, se realizaron una serie d
   
 - Gráficos de líneas realizando análisis temporales.
 
-### Realización y obtención de los KPI'S:
+### Realización y obtención de los KPI'S: :pushpin:
 
 Una vez realizado el Análisis Exploratorio y teniendo todo la informacón dispónibilizada se prosiguió al desarrollo del KPI sugerido en el trabajo y de uno prpuesto por nosotros:
 
-- KPI 1:la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior. :pushpin:
+:pushpin: KPI 1:la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior. 
   
 Objetivo: Evaluar la disminución de un 10% la tasa de fatalidad.
 
 Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período de tiempo / Suma total de accidentes en el período de tiempo)
 
-- KPI 2:- 2do KPI:  Obtener la tasa anual de mortalidad de los accidentes registrados. :pushpin:
+:pushpin: KPI 2:- 2do KPI:  Obtener la tasa anual de mortalidad de los accidentes registrados. 
 
  Objetivo: reducir en un 5% la tasa, año a año.
 
