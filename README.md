@@ -119,6 +119,23 @@ Tasa de mortalidad de la tripulación: (Suma total de fallecidos en el período 
 Tasa Anual de Mortalidad = (Total Fatalities / All Aboard) * 100
 
 ### Dashboard: 
+Para terminar con la presentación del análisis se realizo una presentación en Powerbi:
 
-Para terminar con la presentación del análisis se realizo una presentación en Powerbi donde en la primer pagina se realizo  un resúmen de los objetivos a explorar y analizar. Luego tenemos 2 páginas mas donde se puede observar la realización de los KPI's en forma gráfica 
+### Portada
+
+![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/Portada.png)
+
+### Presentación
+
+![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/Presentaci%C3%B3n.png)
+
+En la primer página se realizo  un resúmen de los objetivos a explorar y analizar
+
+### KPI1:
+![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/KPI1.png)
+
+### KPI2:
+![Logo](https://github.com/maga86/Data-Analist-Proyecto-2-Accidentes-Aereos/blob/main/src/KPI2.png)
+
+
 
